@@ -52,7 +52,7 @@ export default function LatestCode({ repositories }) {
 const GithubRepoCard = ({ latestRepo }) => {
   return (
     <div className="github-repo">
-      <h1 className="font-semibold text-xl dark:text-gray-200 text-gray-700">
+      {/* <h1 className="font-semibold text-xl dark:text-gray-200 text-gray-700">
         {latestRepo.name}
       </h1>
       <p className="text-base font-normal my-4 text-gray-500">
@@ -66,7 +66,7 @@ const GithubRepoCard = ({ latestRepo }) => {
         <div className="transform  group-hover:translate-x-2 transition duration-300">
           &rarr;
         </div>
-      </a>
+      </a> */}
     </div>
   );
 };
