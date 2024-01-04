@@ -15,7 +15,7 @@ export default function AboutMe() {
             className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
-            {userData.about.title}. Currently working on{" "}
+            {userData.about.title}. Currently at{" "}
             <a
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
@@ -41,10 +41,10 @@ export default function AboutMe() {
                 >
                   mail
                 </a>{" "}
-                and I'll get back. I swear.
+                and I'll get back.
               </p>
             </div>
-            <div className="mt-8">
+            {/* <div className="mt-8">
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
                 Job Opportunities
               </h1>
@@ -60,13 +60,13 @@ export default function AboutMe() {
                 </a>{" "}
                 and I'd love to work for you.
               </p>
-            </div>
+            </div> */}
             {/* Social Links */}
             <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
               Social Links
             </h1>
             <div className="mt-4 ml-4">
-              <div className="flex flex-row justify-start items-center ">
+              {/* <div className="flex flex-row justify-start items-center ">
                 <a
                   href={userData.socialLinks.peerlist}
                   className="flex flex-row items-center space-x-4 group"
@@ -101,7 +101,7 @@ export default function AboutMe() {
                     Twitter
                   </div>
                 </a>
-              </div>
+              </div> */}
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.github}
@@ -126,7 +126,7 @@ export default function AboutMe() {
                   </div>
                 </a>
               </div>
-              <div className="flex flex-row justify-start items-center">
+              {/* <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.instagram}
                   className="flex flex-row items-center space-x-4 group"
@@ -137,7 +137,7 @@ export default function AboutMe() {
                     Instagram
                   </div>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* Text area */}
